@@ -7,6 +7,7 @@ body {
 	-o-transition: background-image .4s; /* Opera */
 	background-image: url(../img/landing_image1.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: helvetica, sans-serif;	
 	margin: 0 0;
 	padding: 0 0;
@@ -38,6 +39,7 @@ body {
 	font-size: 225%;
 	color: #6dc7da;
 	position: relative;
+	float: right;
 	margin: 0 0;
 	top: 35px;
 	text-shadow: 0 3px 5px rgba(0,0,0,.31);
@@ -45,6 +47,50 @@ body {
 
 #heading h2 span {
 	color: white;
+}
+
+
+
+#mc_embed_signup {
+
+}
+
+#mc_embed_signup form {
+	margin-top: -30px;
+	float: right;
+}
+
+#mce-EMAIL {
+	width: 205px;
+	display:inline-block;
+	padding: 0 0;
+	margin: 0 0;
+	height: 20px;
+}
+
+#mce-EMAIL[value] {
+	font-size: 55%;
+	color: #bbb;
+	font-style: italic;
+	vertical-align: top;
+	padding-left: 5px;
+}
+
+#mc-embedded-subscribe {
+/*	width: 200px;*/
+	display:inline-block;
+	margin: 0 0;
+	height: 24px;
+	vertical-align: top;
+	background-color: #6dc7da;
+	border: 0;
+	cursor: pointer;
+}
+
+#mc-embedded-subscribe img {
+	height: 16px;
+	width: auto;
+	padding-top: 2px;
 }
 
 p {
